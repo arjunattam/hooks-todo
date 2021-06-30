@@ -15,26 +15,10 @@
     "use-react-router": "^1.0.3"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "jest": "23.6.0",
-    "serve": "^10.0.2"
+    "@playwright/test": "^1.12.3"
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "serve -s build",
-    "build": "react-scripts build",
-    "test": "react-scripts test --coverage",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "build": "react-scripts build"
+  }
 }
